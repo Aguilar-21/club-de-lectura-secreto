@@ -1,0 +1,23 @@
+{
+  "name": "club-de-lectura-secreto",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Un estante compartido de libros y reseñas anónimas, con SQLite en el navegador.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "sql.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "@types/sql.js": "^1.4.11",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.21"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
